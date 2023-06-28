@@ -58,7 +58,7 @@ clues would be Fermi Pico.'''.format(NUM_DIGITS))
 
 def getSecretNum():
     """Returns a string made up of NUM_DIGITS unique random digits."""
-    numbers = list('0123456789asdf')  # Create a list of digits 0 to 9.
+    numbers = list('0123456789asdf')  # Create a list of digits 0 to 9 and letters a,s,d,f.
     random.shuffle(numbers)  # Shuffle them into random order.
 
     # Get the first NUM_DIGITS digits in the list for the secret number:
